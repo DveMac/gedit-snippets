@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="coffee">
+  <snippet>
+    <text><![CDATA[${1:arr} = [$0]]]></text>
+    <tag>arr</tag>
+    <description>Array</description>
+    <accelerator><![CDATA[<Shift><Alt>a]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[$1 = ($2) =>
+	$3]]></text>
+    <tag>bfunc</tag>
+    <description>Bound Function</description>
+    <accelerator><![CDATA[<Shift><Control><Alt>f]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[class ${1:MyClass}
+  constructor: ($2) ->
+  	$3]]></text>
+    <tag>class</tag>
+    <description>Class</description>
+    <accelerator><![CDATA[<Shift><Alt>c]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[for ${1:key} in ${2:object}
+	${3: }$2[$1]
+]]></text>
+    <tag>for</tag>
+    <description>For</description>
+    <accelerator><![CDATA[<Shift><Alt>f]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[for ${1:i} in [${2:0}..${3:object}${4:.length}]
+	$3[$1] $5
+]]></text>
+    <tag>fori</tag>
+    <description>ForInt</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[($1) ->
+	$2
+	]]></text>
+    <tag>func</tag>
+    <description>Function</description>
+    <accelerator><![CDATA[<Shift><Alt>m]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:myFunc} = ($2) ->
+	$3]]></text>
+    <tag>funcd</tag>
+    <description>FunctionDeclaration</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ${1:condition} and ${2:condition}
+	$3
+else
+	$4]]></text>
+    <tag>ifae</tag>
+    <description>IfAndElse</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ${1:condition}
+	$2]]></text>
+    <tag>if</tag>
+    <description>If</description>
+    <accelerator><![CDATA[<Shift><Alt>i]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[if ${1:condition}
+	$2
+else
+	$3]]></text>
+    <tag>ife</tag>
+    <description>If Else</description>
+    <accelerator><![CDATA[<Shift><Alt>e]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[module.exports = $1]]></text>
+    <tag>exp</tag>
+    <description>ModuleExport</description>
+    <accelerator><![CDATA[<Shift><Alt>x]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[${1:obj} = 
+	${2:key}: ${3:'value'}]]></text>
+    <tag>obj</tag>
+    <description>Object</description>
+    <accelerator><![CDATA[<Shift><Alt>o]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[sys.puts sys.inspect $1]]></text>
+    <tag>spi</tag>
+    <description>Puts &amp; Inspect</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[sys.puts $1]]></text>
+    <tag>sp</tag>
+    <description>Puts</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[$0 = require '$1']]></text>
+    <tag>req</tag>
+    <description>Require</description>
+    <accelerator><![CDATA[<Shift><Alt>r]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[switch $1
+  when $2 then $3
+  else $4]]></text>
+    <tag>swch</tag>
+    <description>Switch</description>
+    <accelerator><![CDATA[<Shift><Alt>s]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[try
+	$0
+catch error
+	$1 error]]></text>
+    <tag>tryc</tag>
+    <description>TryCatch</description>
+    <accelerator><![CDATA[<Shift><Alt>t]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[try
+	$0
+catch error
+	$1 error
+finally
+	$2]]></text>
+    <tag>trycf</tag>
+    <description>TryCatchFinally</description>
+  </snippet>
+</snippets>
